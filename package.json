@@ -1,0 +1,29 @@
+{
+  "name": "material-design-color-module",
+  "version": "0.0.1",
+  "description": "A material design color pallet for javascript and typescript",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/YoshiyukiKato/material-design-color-module.git",
+    "type": "git"
+  },
+  "scripts": {
+    "watch": "$(npm bin)/webpack --config webpack.config.js --watch --debug",
+    "build": "$(npm bin)/webpack --config webpack.config.js",
+    "server": "$(npm bin)/webpack-dev-server --config webpack-server.config.js",
+    "test": "$(npm bin)/nyc $(npm bin)/mocha test/**/*.test.ts"
+  },
+  "author": "Yoshiyuki Kato",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-register": "^6.24.1",
+    "ts-loader": "^2.1.0",
+    "typescript": "^2.3.4",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
+  }
+}
