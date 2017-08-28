@@ -1,8 +1,9 @@
 {
   "name": "material-design-color-module",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "A material design color pallet for javascript and typescript",
-  "main": "index.js",
+  "main": "./dest/index.js",
+  "types": "./dest/index.d.js",
   "repository": {
     "url": "https://github.com/YoshiyukiKato/material-design-color-module.git",
     "type": "git"
